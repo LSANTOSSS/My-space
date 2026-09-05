@@ -6,10 +6,10 @@ Atuo na interseção entre **Análise de Sistemas, Engenharia de Requisitos, doc
 
 ## Projetos em destaque
 
-| Projeto | O que demonstra |
-| --- | --- |
-| [SAF — System Analysis Framework](https://github.com/LSANTOSSS/SAF) | Engenharia de Requisitos, MER, rastreabilidade, governança de IA, análise de sistemas e documentação funcional |
-| [DocFlow](https://github.com/LSANTOSSS/docflow) | Python, CLI, parsing, validação estrutural, DOCX/HTML/PDF, testes automatizados e GitHub Actions |
+| Projeto | Estado | Papel no portfólio | O que demonstra |
+| --- | --- | --- | --- |
+| [SAF — System Analysis Framework](https://github.com/LSANTOSSS/SAF) | **v1.0 Stable** | Análise e Engenharia de Requisitos | MER, rastreabilidade, governança de IA, regras, fluxos e documentação funcional |
+| [DocFlow](https://github.com/LSANTOSSS/docflow) | **v1.0 Stable CLI** | Python, automação e tooling | CLI, parsing, validação estrutural, templates, DOCX/HTML/PDF, testes, empacotamento e GitHub Actions |
 
 ## Como os projetos se conectam
 
@@ -29,7 +29,7 @@ DOCX / HTML / PDF
 
 O **SAF** representa a camada de análise: organização da descoberta, critérios, decisões, gaps, requisitos e rastreabilidade.
 
-O **DocFlow** representa a camada de automação: validação de documentos estruturados e geração reproduzível de artefatos em múltiplos formatos.
+O **DocFlow** representa a camada de automação: validação de documentos estruturados, reutilização de configurações e geração reproduzível de artefatos em múltiplos formatos.
 
 Juntos, os projetos mostram um fluxo completo que vai da compreensão do problema até a produção automatizada de entregáveis.
 
@@ -45,25 +45,27 @@ Juntos, os projetos mostram um fluxo completo que vai da compreensão do problem
 - Automação documental
 - Desenvolvimento de CLI
 - Parsing e validação estrutural
-- Testes automatizados
+- Templates e configuração YAML
+- Testes automatizados e E2E
+- Empacotamento Python
 - GitHub Actions / CI
 - Markdown, DOCX, HTML e PDF
 
 ## Destaques
 
-### SAF — System Analysis Framework
+### SAF — System Analysis Framework · v1.0 Stable
 
 Framework público de Engenharia de Requisitos e Análise de Sistemas, com o **MER — Método de Engenharia de Requisitos** como núcleo metodológico e três cases fictícios para demonstrar reutilização do método.
 
 ➡️ [Explorar o SAF](https://github.com/LSANTOSSS/SAF)
 
-### DocFlow
+### DocFlow · v1.0 Stable CLI
 
-CLI em Python para transformar uma única fonte Markdown em documentos DOCX, HTML e PDF, com configuração YAML, validação estrutural, relatórios e pipeline automatizado.
+CLI em Python para transformar uma única fonte Markdown em documentos DOCX, HTML e PDF, com configuração YAML, presets, composição com `extends`, validação estrutural, relatórios, testes E2E e pipeline de distribuição.
 
 ➡️ [Explorar o DocFlow](https://github.com/LSANTOSSS/docflow)
 
-➡️ [Release DocFlow v0.4.0](https://github.com/LSANTOSSS/docflow/releases/tag/v0.4.0)
+➡️ [Histórico de releases do DocFlow](https://github.com/LSANTOSSS/docflow/releases)
 
 ## Sobre este portfólio
 
